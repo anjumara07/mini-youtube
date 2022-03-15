@@ -1,0 +1,98 @@
+*{
+            font-family: 'Roboto', Arial, sans-serif;
+            margin: 0%;
+            padding: 0%;
+        }
+        #nav{
+            width: 99%;
+            height: 63px;
+            display: flex;
+            position: sticky;
+            top: 0;
+            background-color: white;
+        }
+        #nav>.menu{
+            display: block;
+            margin-top: 20px;
+            margin-left: 30px;
+            margin-right: 30px;
+            font-size: 23px;
+        }
+        #logo{
+            width: 120px;
+            height: 60px;
+        }
+        input{
+            width: 550px;
+            height: 35px;
+            margin-top: 10px;
+            margin-left: 80px;
+            padding-left: 15px;
+            font-size: 18px;
+        }
+        button{
+            width: 65px;
+            height: 39px;
+            margin-top: 10px;
+        }
+        .search{
+            font-size: 18px;
+        }
+        .mike{
+            background-color: rgb(243, 240, 240);
+            width: 15px;
+            height: 15px;
+            padding: 12px;
+            border-radius: 50%;
+            margin-top: 10px;
+            margin-left: 10px;
+            font-size: 20px;
+        }
+        .video{
+            margin-top: 20px;
+            margin-left: 90px;
+            font-size: 20px;
+        }
+        .grid{
+            margin-top: 20px;
+            margin-left: 30px;
+            font-size: 20px;
+        }
+        .bell{
+            margin-top: 20px;
+            margin-left: 30px;
+            font-size: 20px;
+        }
+        #user{
+            background-color: rgb(175, 171, 171);
+            width: 18px;
+            height: 18px;
+            padding: 12px;
+            border-radius: 50%;
+            margin-top: 10px;
+            margin-left: 30px;
+            font-size: 18px;
+        }
+        #main{
+            display: flex;
+            height: 490px;
+            padding-top: 20px;
+            background-color: #f9f9f9;
+        }
+        #video_details{
+            flex: 3;
+            height: 450px;
+            margin-left: 100px;
+            margin-right: 30px;
+        }
+        #recommendation{
+            flex: 2;
+            margin-right: 90px;
+            overflow: scroll;
+        }
+        #recommendation>div{
+            display: flex;
+            width: 90%;
+            height: 130px;
+            margin-bottom: 10px;
+        }
